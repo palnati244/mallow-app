@@ -33,6 +33,7 @@ Generate the application key:
 php artisan key:generate
 
 Create the database and configure DB_DATABASE, DB_USERNAME, and DB_PASSWORD.
+Add config LOW_STOCK_THRESHOLD=10
 Run migrations and seed sample data:
 
 php artisan migrate --seed
